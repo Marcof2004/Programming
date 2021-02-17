@@ -1,0 +1,59 @@
+h1{
+	color:blue;
+	background-color:#BADEFF;
+	padding:2%;
+	text-align:center;
+}
+
+body{
+	font-family:'#'; /* There are many font families look for it in google.*/
+	margin:5% 0% 5% 3%  ;
+	background-color:#00A5C4;
+	padding-right:10%;
+}
+
+ul{ 
+	list-style:lower-roman;/* There are many list styles look for it in google*/
+}
+
+a{ 
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+}
+
+h2{
+	color:blue;
+	background-color: #98C2DA;
+	text-align:center; /* The text align can be center, right or left */
+	padding:1.5%
+}
+
+.image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;                        		
+}	
+
+.background{
+			background-color:#00A5C4;
+}	
+
+.list{
+	line-height:35px;
+}
+
+.Thelink{ 
+		border: none;
+		color:#0E5685 ;
+		padding: 15px 32px;
+		text-decoration: none;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+}
+
+.copy{
+	text-align:center;
+}	
