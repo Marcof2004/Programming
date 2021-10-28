@@ -17,7 +17,7 @@ async function creatSlash() {
             { body: commands }
         )
 
-        console.log('HA FUNCIONADO CHAVAL')
+        console.log('HA FUNCIONADO CHAVALES')
     }catch(e) {
         console.error(e)
     }
