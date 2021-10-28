@@ -19,9 +19,12 @@ echo =================================
 systeminfo | findstr /c:"Total Physical Memory"
 wmic cpu get name
 wmic diskdrive get name,model,size
+echo Grapichs
 wmic path win32_videocontroller get name 
 echo Motherboard Info
 wmic baseboard get product,Manufacturer
+echo RAM
+wmic MEMORYCHIP get Capacity
 
 :: Third Section, Network Information
 

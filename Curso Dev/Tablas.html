@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center">Tablas</h1>
+
+    <table>
+        <tr>
+            <th colspan="5">Titulo</th>
+        </tr>
+        <tr>
+            <td>Fila 1</td>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 4</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">Fila 2</td>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+        <tr>
+            <td>Una fila extra</td>
+        </tr>
+        <tr>
+            <td colspan="2">Fila 3</td>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tr>
+    </table>
+    <br>
+
+    <hr>
+
+    <table>
+        <!--Las tags de thead, tbody, tfooter mantienen la posicion de las celdas
+             en su lugar correspondiente.
+            thead= Hasta Arriba
+            tbody= El centro
+            tfooter= Hasta Abajo
+            -->
+        <thead>
+            <th>Titulo 1</th>
+            <th>Titulo 2</th>
+            <th>Titulo 3</th>
+        </thead>
+        <tbody>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tbody>
+        <tfooter>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+        </tfooter>
+    </table>
+</body>
+
+</html>

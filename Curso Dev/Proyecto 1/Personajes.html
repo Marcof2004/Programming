@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Personajes</title>
+    <style>
+        table,td,tr {
+            border: 2px solid red;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <ul>
+        <a href="Index.html"><button>Inicio</button></a>
+        <a href="Peliculas.html"><button>Las peliculas</button></a>
+        <a href="Personajes.html"><button>Los Personajes</button></a>
+    </ul>
+
+    <h2>Top Personajes del MCU</h2>
+    <ol>
+        <li>Iron Man</li>
+        <ul>
+            <li>Tony Stark</li>
+            <li>J.A.R.V.I.S.</li>
+        </ul>
+        <li>Captain America</li>
+        <li>Doctor Strange</li>
+        <li>Bruce Banner</li>
+        <li>Vision</li>
+    </ol>
+
+    <hr>
+    <table>
+        <!--Para usar el rowspan y el colspan debe haber una columna existente con contenido-->
+        <tr>
+            <td rowspan="3">
+                Iron Man
+                <br>
+                Tony Stark
+                <br>
+                J.A.R.V.I.S.
+            </td>
+            <td colspan="2">
+                <!--Esta es la caja del Capitan Amwerica-->
+                <img id="verct" src="https://i.ibb.co/KLLZQMw/image.png" alt="Capitan America en Uniforme">
+                <br>
+                <span id="capi">Captain America</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img id="rect" src="https://i.ibb.co/rspZ37S/image.png" alt="Doctor Strange">
+                <br>
+                Doctor Strange
+            </td>
+            <td>
+                <img id="verct" src="https://i.ibb.co/7JvQbDv/image.png" alt="the vision from the mcu">
+                <br>
+                Vision
+            </td>
+        </tr>
+        <tr>            
+            <td id="imsquare" colspan="2">
+                <img src="https://i.ibb.co/nk1J4f5/image.png" alt="Bruce Banner">
+                <br>
+                Bruce Banner
+            </td>
+        </tr>
+
+
+
+    </table>
+</body>
+
+</html>

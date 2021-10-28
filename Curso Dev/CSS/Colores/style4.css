@@ -1,0 +1,56 @@
+html{
+    background-color: #008b8b;
+}
+
+/*Custom colors */
+#red{
+    background-color:darkred;
+    height:100px;
+}
+
+#cy{
+    background-color:rgb(0, 255, 255);
+    height:100px;
+}
+
+#gl{
+    background-color: darkgoldenrod;
+    height:100px;
+}
+
+/*RGB and Hex set */
+#hex1{
+    background-color: #FF0000;
+    height:100px;
+}
+
+#rgb1{
+    background-color: rgb(255,0,0);
+    height:100px;
+}
+
+#hex2{
+    background-color: #00FF00;
+    height:100px;
+}
+
+#rgb2{
+    background-color:rgb(0,255,0);
+    height:100px;
+}
+
+#hex3{
+    background-color:#0000FF;
+    height:100px;
+}
+
+#rgb3{
+    background-color:rgb(0,0,255);
+    height:100px;
+}
+
+hr{
+    color:white;
+    height: 10px;
+    background-color:white;
+}

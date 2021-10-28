@@ -1,0 +1,37 @@
+h1{
+    color:#0489B1;
+    text-align: center;
+}
+
+h2{
+    color:chartreuse;
+}
+
+#tl3{
+    color:red;
+}
+
+#tl5{
+    color:seagreen; 
+}
+
+.pg{
+    color:white;
+}
+
+.hd,.pg{
+    background-color: #4f4ddf;
+}
+
+html{
+    background-color: whitesmoke;
+}
+
+#He3{
+    color:white;
+    text-align:center;
+}
+
+/* ID is selected using the # 
+    Class is selected using the .
+    A element is selected just by typing the name */

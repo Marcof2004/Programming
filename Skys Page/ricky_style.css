@@ -1,0 +1,24 @@
+html{
+    background-color:black;
+    color:white;
+}
+
+#rickypic{
+    width:10%;
+    max-height: max-content;
+    height: 20%;
+    float:left;
+    margin-top:2%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom:1%;
+    font-size:200%;
+}
+
+#desricky{
+    margin-left:12%;
+    margin-top:0;
+    font-size:200%;
+}

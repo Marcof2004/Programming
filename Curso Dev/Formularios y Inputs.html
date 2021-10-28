@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charste="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-EDGE">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clase 10</title>
+    </head>
+        <h1>Formularios</h1>
+
+        <form action="" autocomplete="on">
+            <fieldset>
+                <legend>Identificacion</legend>
+                <label for="">Nombre(1):</label>
+                <input type="text" name="NM" id="NM" required autofocus>
+                <br>
+                <label for="NM2">Nombre(2)</label>
+                <input type="text" name="" id="" disabled>
+                <br>
+                <label for="AP">Apellido:</label>
+                <input type="text" name="AP" id="AP">
+            </fieldset>
+
+                <h2>Los del MCU</h2>                
+                    <input type="radio" name="MCU" id="IM" checked>
+                    <label for="IM">Iron Man</label>
+                    <br>                
+                    <input type="radio" name="MCU" id="TH">
+                    <label for="TH">Thor</label>
+                    <br>                
+                    <input type="radio" name="MCU" id="Otro">
+                    <label for="Otro">Otro?</label>
+                    <br>
+                    <input type="text" name="" id="" readonly> <!--Atributo de readonly es mejor que no se use, mejor disabled-->
+                <br>            
+           
+            <hr>
+
+            <h2>Pelis del MCU</h2>
+                <input type="checkbox" name="PLI" id="PL1">
+                <label for="PL1">Endgame</label>
+                <br>
+                <input type="checkbox" name="PLI" id="PL2">
+                <label for="PL2">Thor Ragnarok</label>
+                <br>
+                <input type="checkbox" name="PLI" id="PL3" checked>
+                <label for="PL3">Iron Man 2</label>
+            <hr>
+            
+            <h2>Lista Completa de Peliculas</h2>
+
+            <label for="SRC">Buscador</label>
+            <input type="text" name="" id="" list="SRC">
+                <datalist id="SRC">
+                    <option value="Iron Man" selected>Iron Man</option>
+                    <option value="Iron 2" >Iron Man 2</option>
+                    <option value="Thor">Thor</option>
+                    <option value="Captain America">Captain America: The First Avenger</option>
+                    <option value="Avengers">The Avengers</option>
+                    <option value=" Iron Man 3">Iron Man 3</option>
+                    <option value="Thor Dark World">Thor: The Dark World</option>
+                    <option value="Captain America Winter Soldier">Captain America: The Winter Soldier</option>
+                    <option value="Guardians Galexy">Guardians of the Galaxy</option>
+                    <option value="Avengers Age of Ultron">Avengers: Age of Ultron</option>
+                    <option value="Ant Man">Ant-Man</option>
+                    <option value="Captain America Civi War">Captain America: Civil War</option>
+                    <option value="Doc Strange">Doctor Strange</option>
+                    <option value="Spider Man HM">Spider-Man: Homecoming</option>
+                    <option value="Guardians of the Galaxy VOL2">Guardians of the Galaxy Vol. 2</option>
+                    <option value="Thor Ragnarok">Thor: Ragnarok</option>
+                    <option value="Black Panther">Black Panther</option>
+                    <option value="Avenger Infinity war">Avengers: Infinity War</option>
+                    <option value="Ant-Man Wasp">Ant-Man and the Wasp</option>
+                    <option value="Captain Marvel">Captain Marvel</option>
+                    <option value="Avengers Endgame">Avengers: Endgame</option>
+                    <option value="Spider Man Far Home">Spider-Man: Far From Home</option>                   
+                </datalist>
+                <br>
+                <br>
+            <fieldset>
+                <legend>Escoge tu Peli Favorita</legend>
+                <select name="Country" id="Country"> <!--the size="2" attribute in select tag tells how many items would be displayed in page in this case 2-->
+                    <option value="Iron Man" selected>Iron Man</option>
+                    <option value="Iron 2" >Iron Man 2</option>
+                    <option value="Thor">Thor</option>
+                    <option value="Captain America">Captain America: The First Avenger</option>
+                    <option value="Avengers">The Avengers</option>
+                    <option value=" Iron Man 3">Iron Man 3</option>
+                    <option value="Thor Dark World">Thor: The Dark World</option>
+                    <option value="Captain America Winter Soldier">Captain America: The Winter Soldier</option>
+                    <option value="Guardians Galexy">Guardians of the Galaxy</option>
+                    <option value="Avengers Age of Ultron">Avengers: Age of Ultron</option>
+                    <option value="Ant Man">Ant-Man</option>
+                    <option value="Captain America Civi War">Captain America: Civil War</option>
+                    <option value="Doc Strange">Doctor Strange</option>
+                    <option value="Spider Man HM">Spider-Man: Homecoming</option>
+                    <option value="Guardians of the Galaxy VOL2">Guardians of the Galaxy Vol. 2</option>
+                    <option value="Thor Ragnarok">Thor: Ragnarok</option>
+                    <option value="Black Panther">Black Panther</option>
+                    <option value="Avenger Infinity war">Avengers: Infinity War</option>
+                    <option value="Ant-Man Wasp">Ant-Man and the Wasp</option>
+                    <option value="Captain Marvel">Captain Marvel</option>
+                    <option value="Avengers Endgame">Avengers: Endgame</option>
+                    <option value="Spider Man Far Home">Spider-Man: Far From Home</option>
+                </select>
+            </fieldset>    
+            <br>
+            <label for="EXPPELI">Por que esta es tu favorita?</label> <!--El label tampien se puede usar para el textarea-->
+            <br>
+            <textarea name="EXPPELI" id="EXPPELI" cols="30" rows="5"></textarea>
+            <br>
+            <br>
+
+            <label for="scroll">Range Input</label>
+            <br>
+            <input type="range" name="" id="scroll" value="200" min="0" max="300">
+
+            <hr>
+            <label for="pass*">Password Input</label>
+            <br>
+            <input type="password" name="" id="pass*">
+            <br>
+            <br>
+            <label for="color">Color Input</label>
+            <br>
+            <input type="color" name="" id="color">
+            <br>
+            <br>
+            <label for="dt">Date Input</label>
+            <br>
+            <input type="date" name="" id="dt">
+            <br>
+            <br>
+            <label for="dtlocal">Date and Time Input</label>
+            <br>
+            <input type="datetime-local" name="" id="dtlocal">
+            <br>
+            <br>
+            <label for="mailito">Email Input</label>
+            <br>
+            <input type="email" name="" id="mailito">
+            <br>
+            <br>
+            <label for="Upload">Upload File Input</label>
+            <br>
+            <input type="file" name="" id="Upload">
+            <br>
+            <br>
+            <label for="MonthIn">Only Month Date Input</label>
+            <br>
+            <input type="month" name="" id="MonthIn">
+            <br>
+            <br>
+            <label for="num"># Input</label>
+            <br>
+            <input type="number" name="" id="num" min="10" max="20">
+            <br>
+            <br>
+            <label for="telnum">Phone Number Input</label>
+            <br>
+            <input type="tel" name="" id="telnum">
+            <br>
+            <br>
+            <label for="time">Time Input</label>
+            <br>
+            <input type="time" name="" id="time">
+            <br>
+            <br>
+            <label for="url">Url Input</label>
+            <br>
+            <input type="url" name="" id="url">
+
+            <br>
+            <br>
+            <input type="reset" name="" id="" value="Reset Form">
+            <input type="submit" value="Submit"> <!--Value attribute is for the text inside the button-->
+        </form>
+    <body>
+        <h1></h1>
+    </body>
+</html>
